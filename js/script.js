@@ -18,7 +18,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Algo 1.", "Algo 2.", "Algo 3."],
+		strings: ["Programador.", "Algo 2.", "Algo 3."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
