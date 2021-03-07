@@ -1,5 +1,18 @@
 
 
+function mudarleng(leng){
+    var langpage = document.getElementById('languagepage').innerHTML
+    if (leng == 'pt'){
+        window.open("index.html","_self");
+    } else if (leng == 'en'){
+        window.open("indexen.html","_self");
+    } else if (leng == 'es'){
+        window.open("indexes.html","_self");
+    } else {
+        //pass
+    };
+
+};
 
 
 
@@ -131,7 +144,7 @@ $(document).ready(function() {
 
 	});
 
-
+	
 
 
 	const nav = $("#navigation");
