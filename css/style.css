@@ -161,8 +161,14 @@ hr {
 }
 
 .squareContent h3 {
-	font-size: 13px;
+	font-size: 20px;
 	font-weight: 600;
+	margin: 0;
+}
+
+.squareContent h4 {
+	font-size: 13px;
+	font-weight: 400;
 	margin: 0;
 }
 
@@ -545,3 +551,156 @@ hr {
 	margin-left: 1px;
 	margin-right: 20px;
 }
+
+
+
+
+
+/*Bulletponts Projects*/
+.bulletponintsprojects {
+	list-style-type: none;
+	position: relative;
+
+}
+
+.bulletponintsprojects:before{
+	content: '';
+	background: #333844;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 1;
+}
+
+.bulletponintsprojects li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.bulletponintsprojects li h4{
+	background-color: white;
+	padding: 5px 0 5px 20px;
+	column-rule-color: #fff;
+	font-size: 21px;
+	color: black
+}
+
+.bulletponintsprojects li .titulo{
+	padding: 5px 0 5px 20px;
+	font-size: 21px;
+	color: black
+}
+
+
+.bulletponintsprojects li h4 span{
+	font-weight: bold;
+}
+
+.bulletponintsprojects li:before{
+	content: '';
+	background: #CC866C;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
+
+
+.lang-menu{
+	padding-top: 20px;
+    font-weight: bold;
+	padding-right: 8%;
+}
+
+.selected-lang{
+	cursor: pointer;
+	display: flex;
+	text-align: right;
+	float: right;
+	justify-content: space-between;
+	line-height: 2;
+	width: 120px;
+}
+
+.selected-lang:before{
+	content: '';
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+
+.lang-menu ul{
+	margin:0;
+	padding: 0;
+	background-color: #fff;
+	border: 1px solid #f8f8f8;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	display: none;
+	position: absolute;
+}
+
+.lang-menu ul li{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.lang-menu ul li a{
+	width: 140px;
+	display: block;
+	padding:5px 10px;
+}
+
+.lang-menu ul li a:before{
+	content: '';
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.lang-menu ul li a:hover{
+	background-color: #f2f2f2;
+}
+
+.pt:before{
+	background-image: url(https://www.countryflags.io/pt/flat/32.png);
+}
+
+.en:before{
+	background-image: url(https://www.countryflags.io/gb/flat/32.png);
+}
+
+.es:before{
+	background-image: url(https://www.countryflags.io/es/flat/32.png);
+}
+
+
+
+.lang-menu:hover ul{
+	display: block;
+}
+
+
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+  }
+
+  .down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+  }
+
