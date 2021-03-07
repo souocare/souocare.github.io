@@ -1,8 +1,13 @@
 $(window).on("load", function() {
 
+	$(".loader .inner").hide(350, function() {
+		$(".loader").hide(550);
+	});
+	/*
 	$(".loader .inner").fadeOut(350, function() {
 		$(".loader").fadeOut(550);
 	});
+	*/
 
 })
 
