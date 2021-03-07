@@ -1,9 +1,4 @@
-$(window).on("load", function() {
-	$(".loader .inner").fadeOut(350, function() {
-		$(".loader").fadeOut(550);
-	});
 
-})
 
 
 
