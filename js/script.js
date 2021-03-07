@@ -1,3 +1,4 @@
+/*
 $(window).on("load", function() {
 
 	$(".loader .inner").hide(250, function() {
@@ -7,10 +8,9 @@ $(window).on("load", function() {
 	$(".loader .inner").fadeOut(350, function() {
 		$(".loader").fadeOut(550);
 	});
-	*/
+	
 
-})
-
+})*/
 
 
 

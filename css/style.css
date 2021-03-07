@@ -1,8 +1,15 @@
+html {
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
 	font-size: 14px;
     color: #333;
     background-color: #fff;
     letter-spacing: 1px;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 .overlay {
