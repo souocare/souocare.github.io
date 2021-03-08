@@ -84,10 +84,15 @@ hr {
 	max-width: 100%;
 }
 
-.skillsSection,
-.contactSection {
+.skillsSection {
 	background-color: #333844;
 	color: #fff;
+}
+
+
+.contactSection {
+	background-color: #fff;
+	color: #333844;
 }
 
 .skill {
@@ -184,18 +189,18 @@ hr {
 }
 
 .contactButton {
-	color: #fff;
+	color: #333844;
     padding: 15px 20px;
     display: inline-block;
     margin-top: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #333844;
     border-radius: 2px;
 }
 
 .contactButton:hover {
 	text-decoration: none;
-	color: #e74c3c;
-	background-color: #fff;
+	color: #fff;
+	background-color: #333844;
 }
 
 .filter a {
@@ -590,7 +595,7 @@ hr {
 
 .bulletponintsprojects li .titulo{
 	padding: 5px 0 5px 20px;
-	font-size: 21px;
+	font-size: 19px;
 	color: black
 }
 
@@ -610,6 +615,13 @@ hr {
 	width: 20px;
 	height: 20px;
 	z-index: 1;
+}
+
+.bulletstoolsused li:before{
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	content: normal;
 }
 
 
