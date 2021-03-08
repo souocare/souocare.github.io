@@ -15,6 +15,8 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 	<style type="text/css">
 		@media (max-width: 637px){
 			.row{
@@ -147,6 +149,16 @@
 
 
 					</div>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<br>
+					<button id="curriculumbutton" class="buttontoexpandcurriculum" onclick="expandothers('curriculum')"><strong>Clique aqui para expandir o Curriculum Vitae!</strong></button><br><br>
+				</div>
+
+				<div id="curriculum" class="col-md-12 text-center" style="display: none;">
+					<br>
+					<iframe src="https://onedrive.live.com/embed?cid=E40CC9BD97BBDC33&resid=E40CC9BD97BBDC33%218632&authkey=AIZBARieMpr6L5U&em=2" width="700" height="350" frameborder="0" scrolling="no"></iframe>
 				</div>
 
 			</div>
@@ -508,6 +520,78 @@
 		</div>
 
 	</div>
+
+
+	<div id="co" class="education section">
+
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<h2 style="color: #C2542D">OUTRAS INFORMAÇÕES</h2>
+			</div>
+
+			
+			
+
+			<ul class="bulletponintsothers">
+					
+				<li class="timel">
+					<div class="row testeeducation">
+						<div class="col-md-12">
+								<span class="titulo">Idiomas</a></span>
+								
+						</div>
+					</div>
+					<div id="othersone" style="position: relative; padding-left: 5px">
+						<div id="barraidiomas">
+						</div>
+					</div>
+				</li>
+				<li class="timel">
+					<div class="row testeeducation">
+						<div class="col-md-12">
+								<span class="titulo">Certificados</a></span>
+								
+						</div>
+					</div>
+					<br>
+					<div class="col-md-12" style="text-align: center;">
+						<span style="font-size: 20px;"><b>Formações</b><br><br></a></span>
+					</div>
+					
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-4">
+								<span style="font-size: 18px;"><b>Formações Académicas</b><br></a></span><br>
+								Tal como referido acima, sou <b>Licenciado em Bioinformática</b>, em que pode observar o curriculo no quadrado abaixo.<br><br><br>
+								<button class="botaoacederpastas" style="vertical-align:middle"><span>Formações Académicas </span></button>
+							</div>
+							<div class="col-md-4">
+								<span style="font-size: 18px;"><b>Cursos Online</b><br></a></span><br>
+								O botão abaixo contém todos certificados de cursos realizados, sendo estes de sites como <b>Udemy</b>, <b>Solyd</b>, <b>Curso em Video</b>.<br>
+								Contém certificações de Python, SQL e Java.<br><br>
+								<button class="botaoacederpastas" style="vertical-align:middle"><span>Cursos Online </span></button>
+							</div>
+							<div class="col-md-4">
+								<span style="font-size: 18px;"><b>Formações Presenciais</b><br></a></span><br>
+								Abaixo, é possivel verificar certificados de participação na formação de <b>Android Training Program Portugal</b>, e ainda um <b>certificado de Excel intermédio.</b><br><br>
+								<button class="botaoacederpastas" style="vertical-align:middle"><span>Formações Presenciais </span></button>
+							</div>
+						</div>
+						
+					</div>
+
+				</li>
+
+				
+
+			</ul>
+			
+	
+		</div>
+
+	</div>
+
+
 
 
 	<div id="contact" class="contactSection section">

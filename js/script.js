@@ -14,7 +14,9 @@ function mudarleng(leng){
 
 };
 
-function expandproj(numproj){
+
+
+function expandothers(numproj){
     var checkdisplay = document.getElementById(numproj).style.display;
 	if (checkdisplay == 'block'){
 		document.getElementById(numproj).style.display = "none";;
@@ -181,6 +183,49 @@ $(document).ready(function() {
 
 
 	}
+
+	var options = {
+		series: [{
+			name: "Percentagem de conhecimento",
+		data: [90, 60, 25]
+	  }],
+		chart: {
+		type: 'bar',
+		height: 250,
+		toolbar:{
+			show:false
+		}
+	  },
+	  colors:["#CC866C"],
+	  plotOptions: {
+		bar: {
+		  horizontal: true,
+		}
+	  },
+	  dataLabels: {
+		enabled: false
+	  },
+	  states:{
+		hover:{
+			filter:{
+				type: 'none',
+			}
+		  }
+		  
+	  },
+	  xaxis: {
+		categories: ['Português', 'Inglês', 'Espanhol'
+		],
+		tooltip:{
+			style:{
+				fontSize: '20px',
+			}
+		}
+	  }
+	  };
+
+	  var chart = new ApexCharts(document.querySelector("#barraidiomas"), options);
+	  chart.render();
 
 });
 
