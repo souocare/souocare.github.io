@@ -50,7 +50,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Programador.", "Algo 2.", "Algo 3."],
+		strings: ["Focado.", "Persistente.", "Empenhado."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
