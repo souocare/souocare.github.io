@@ -18,13 +18,24 @@ function mudarleng(leng){
 
 function expandothers(numproj){
     var checkdisplay = document.getElementById(numproj).style.display;
-	if (checkdisplay == 'block'){
-		document.getElementById(numproj).style.display = "none";;
-		document.getElementById(numproj + "button").innerHTML = '<strong>Clique aqui para expandir!</strong>';
+	if (numproj == 'curriculum'){
+		if (checkdisplay == 'block'){
+			document.getElementById(numproj).style.display = "none";;
+			document.getElementById(numproj + "button").innerHTML = '<strong>Clique aqui para expandir o Curriculum Vitae!</strong>';
+		} else {
+			document.getElementById(numproj).style.display = "block";;
+			document.getElementById(numproj + "button").innerHTML = '<strong>Clique aqui para esconder o Curriculum Vitae!</strong>';
+		}
 	} else {
-		document.getElementById(numproj).style.display = "block";;
-		document.getElementById(numproj + "button").innerHTML = '<strong>Clique aqui para esconder!</strong>';
+		if (checkdisplay == 'block'){
+			document.getElementById(numproj).style.display = "none";;
+			document.getElementById(numproj + "button").innerHTML = '<strong>Clique aqui para expandir!</strong>';
+		} else {
+			document.getElementById(numproj).style.display = "block";;
+			document.getElementById(numproj + "button").innerHTML = '<strong>Clique aqui para esconder!</strong>';
+		}
 	}
+	
 
 };
 
